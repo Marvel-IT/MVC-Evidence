@@ -1,0 +1,74 @@
+@model MvcEvidence.Models.OsobaPojistovnaViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2 class="display-5">Pojištěné osoby</h2>
+<hr>
+<br>
+
+<p>
+    <a asp-action="Create">Přidat pojištěnou osobu</a>
+</p>
+
+<form asp-controller="Osoby" asp-action="Index" method="get">
+    <p>
+        <select asp-for="OsobaPojistovna" asp-items="Model.Pojistovny">
+            <option value="">Všechny pojištovny</option>
+        </select>
+
+
+        Jmeno: <input type="text" asp-for="SearchString"  placeholder="Zadejte jméno"/>
+                <input type="submit" value="Hledej" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Osoby![0].Jmeno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Osoby![0].Prijmeni)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Osoby![0].Vek)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Osoby![0].Telefon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Osoby![0].Pojistovna)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Osoby!) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Jmeno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prijmeni)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vek)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pojistovna)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
