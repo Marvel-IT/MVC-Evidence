@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tkuze\\Dropbox\\My C# Projects\\MVC appka by VS code\\MvcEvidence\\MvcEvidence.csproj": {}
+    "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\MvcEvidence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tkuze\\Dropbox\\My C# Projects\\MVC appka by VS code\\MvcEvidence\\MvcEvidence.csproj": {
+    "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\MvcEvidence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tkuze\\Dropbox\\My C# Projects\\MVC appka by VS code\\MvcEvidence\\MvcEvidence.csproj",
+        "projectUniqueName": "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\MvcEvidence.csproj",
         "projectName": "MvcEvidence",
-        "projectPath": "C:\\Users\\tkuze\\Dropbox\\My C# Projects\\MVC appka by VS code\\MvcEvidence\\MvcEvidence.csproj",
+        "projectPath": "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\MvcEvidence.csproj",
         "packagesPath": "C:\\Users\\tkuze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tkuze\\Dropbox\\My C# Projects\\MVC appka by VS code\\MvcEvidence\\obj\\",
+        "outputPath": "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

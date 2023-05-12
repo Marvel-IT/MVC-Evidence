@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d+vhva/IpXCnzIRDIcy4rsfHoTnmrv98yVfbV17UgLOnUDF6iAzUXWbXu6sYzCOrpnkynZAhDwS3MxMXpSr/Lg==",
+  "dgSpecHash": "VX+YzrAcl8gwt5yiLE9X4CeJx9eJtQq9p7KMlTes1hzYWh9nrsRSlVUyRxAYk9l40peJLuG8aLDCHwphdVx3vQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tkuze\\Dropbox\\My C# Projects\\MVC appka by VS code\\MvcEvidence\\MvcEvidence.csproj",
+  "projectFilePath": "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\MvcEvidence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tkuze\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tkuze\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

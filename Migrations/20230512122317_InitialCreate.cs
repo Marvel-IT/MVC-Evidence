@@ -16,11 +16,11 @@ namespace MvcEvidence.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Jmeno = table.Column<string>(type: "TEXT", nullable: false),
-                    Prijmeni = table.Column<string>(type: "TEXT", nullable: false),
+                    Jmeno = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
+                    Prijmeni = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
                     Vek = table.Column<int>(type: "INTEGER", nullable: false),
                     Telefon = table.Column<int>(type: "INTEGER", nullable: false),
-                    Pojistovna = table.Column<string>(type: "TEXT", nullable: false)
+                    Pojistovna = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {

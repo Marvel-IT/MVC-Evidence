@@ -10,7 +10,7 @@ using MvcEvidence.Data;
 namespace MvcEvidence.Migrations
 {
     [DbContext(typeof(MvcOsobaContext))]
-    [Migration("20230512092838_InitialCreate")]
+    [Migration("20230512122317_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -27,14 +27,15 @@ namespace MvcEvidence.Migrations
 
                     b.Property<string>("Jmeno")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Pojistovna")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Prijmeni")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Telefon")

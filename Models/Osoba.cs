@@ -14,10 +14,9 @@ public class Osoba
     [StringLength(50, MinimumLength = 1)]    
     public string? Prijmeni {get; set; }
     [Display(Name = "Věk")]
-    public int Vek {get; set; }
-    [DataType(DataType.PhoneNumber), MinLength(9)]
+    public int Vek {get; set; }    
     [DisplayFormat(DataFormatString = "{0:###-###-###}")]    
     public int Telefon {get; set; }
-    [Display(Name = "Pojišťovna"), Required]
+    [Display(Name = "Pojišťovna")]
     public string? Pojistovna {get; set; }
 }
