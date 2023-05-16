@@ -4,12 +4,12 @@
     ViewData["Title"] = "Index";
 }
 
-<h2 class="display-5">Pojištěné osoby</h2>
+<h2 class="display-5 bg-primary-subtle">Pojištěné osoby</h2>
 <hr>
 <br>
 
 <p>
-    <a asp-action="Create">Přidat pojištěnou osobu</a>
+    <a asp-action="Create" class="btn btn-success">Přidat pojištěnou osobu</a>
 </p>
 
 <form asp-controller="Osoby" asp-action="Index" method="get">
@@ -64,9 +64,9 @@
                 @Html.DisplayFor(modelItem => item.Pojistovna)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
             </td>
         </tr>
 }

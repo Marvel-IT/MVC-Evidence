@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\MvcEvidence.csproj": {}
+    "C:\\Users\\Marvel\\Documents\\GitHub\\MVC-Evidence\\MvcEvidence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\MvcEvidence.csproj": {
+    "C:\\Users\\Marvel\\Documents\\GitHub\\MVC-Evidence\\MvcEvidence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\MvcEvidence.csproj",
+        "projectUniqueName": "C:\\Users\\Marvel\\Documents\\GitHub\\MVC-Evidence\\MvcEvidence.csproj",
         "projectName": "MvcEvidence",
-        "projectPath": "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\MvcEvidence.csproj",
-        "packagesPath": "C:\\Users\\tkuze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tkuze\\OneDrive\\Dokumenty\\GitHub\\MVC-Evidence\\obj\\",
+        "projectPath": "C:\\Users\\Marvel\\Documents\\GitHub\\MVC-Evidence\\MvcEvidence.csproj",
+        "packagesPath": "C:\\Users\\Marvel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marvel\\Documents\\GitHub\\MVC-Evidence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\tkuze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marvel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
