@@ -109,7 +109,6 @@ namespace MvcEvidence.Controllers
         }
 
         // POST: Osoby/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Jmeno,Prijmeni,Vek,Telefon,Pojistovna")] Osoba osoba)

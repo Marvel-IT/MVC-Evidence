@@ -4,10 +4,10 @@
 
 namespace MvcEvidence.Migrations
 {
-    /// <inheritdoc />
+    
     public partial class InitialCreate : Migration
     {
-        /// <inheritdoc />
+        
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -27,8 +27,7 @@ namespace MvcEvidence.Migrations
                     table.PrimaryKey("PK_Osoba", x => x.Id);
                 });
         }
-
-        /// <inheritdoc />
+       
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
